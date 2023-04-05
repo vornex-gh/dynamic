@@ -60,10 +60,10 @@ fetch(`https://api.lanyard.rest/v1/users/${discordID}`)
         //rpcState.innerText = e.data["activities"][1].state
         document.getElementById(
           "rpcIcon"
-        ).src = `https://cdn.discordapp.com/app-assets/383226320970055681/${e.data["activities"][1].assets.large_image}.png`;
+        ).src = `https://cdn.discordapp.com/app-assets/153490292081819648/${e.data["activities"][1].assets.large_image}.png`;
         document.getElementById(
           "rpcSmallIcon"
-        ).src = `https://cdn.discordapp.com/app-assets/383226320970055681/${e.data["activities"][1].assets.small_image}.png`;
+        ).src = `https://cdn.discordapp.com/app-assets/153490292081819648/${e.data["activities"][1].assets.small_image}.png`;
       } else {
         rpcName.innerText = e.data["activities"][0].name;
         rpcDetails.innerText =
@@ -73,10 +73,10 @@ fetch(`https://api.lanyard.rest/v1/users/${discordID}`)
         //rpcState.innerText = e.data["activities"][0].state
         document.getElementById(
           "rpcIcon"
-        ).src = `https://cdn.discordapp.com/app-assets/383226320970055681/${e.data["activities"][0].assets.large_image}.png`;
+        ).src = `https://cdn.discordapp.com/app-assets/153490292081819648/${e.data["activities"][0].assets.large_image}.png`;
         document.getElementById(
           "rpcSmallIcon"
-        ).src = `https://cdn.discordapp.com/app-assets/383226320970055681/${e.data["activities"][0].assets.small_image}.png`;
+        ).src = `https://cdn.discordapp.com/app-assets/153490292081819648/${e.data["activities"][0].assets.small_image}.png`;
       }
     } else {
       rpcName.innerText = "None";
@@ -128,10 +128,10 @@ webSocket.addEventListener("message", (event) => {
         rpcState.innerText = data.d["activities"][1].state;
         document.getElementById(
           "rpcIcon"
-        ).src = `https://cdn.discordapp.com/app-assets/383226320970055681/${data.d["activities"][1].assets.large_image}.png`;
+        ).src = `https://cdn.discordapp.com/app-assets/153490292081819648/${data.d["activities"][1].assets.large_image}.png`;
         document.getElementById(
           "rpcSmallIcon"
-        ).src = `https://cdn.discordapp.com/app-assets/383226320970055681/${data.d["activities"][1].assets.small_image}.png`;
+        ).src = `https://cdn.discordapp.com/app-assets/153490292081819648/${data.d["activities"][1].assets.small_image}.png`;
       }
     } else {
       rpcName.innerText = "None";
