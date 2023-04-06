@@ -47,7 +47,7 @@ fetch(`https://api.lanyard.rest/v1/users/${discordID}`)
     } else {
       trackName.innerText = "None";
       trackArtist.innerText = "I'm not currently listening anything";
-      document.getElementById("trackImg").src = "https://dgs1337.github.io/neksio/template/musicDefault.png;
+      document.getElementById("trackImg").src = "./template/musicDefault.png";
     }
 
     if (e.data["activities"].length > 0) {
@@ -137,7 +137,7 @@ webSocket.addEventListener("message", (event) => {
       rpcName.innerText = "None";
       rpcDetails.innerText = "I'm not currently playing anything";
       rpcState.innerText = "";
-      document.getElementById("rpcIcon").src = `gameDefault.png`;
+      document.getElementById("rpcIcon").src = `./template/gameDefault.png`;
       document.getElementById(
         "rpcSmallIcon"
       ).src = `https://neksio.wtf/transparent.png`;
