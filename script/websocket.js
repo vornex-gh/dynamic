@@ -82,11 +82,11 @@ fetch(`https://api.lanyard.rest/v1/users/${discordID}`)
       rpcName.innerText = "None";
       rpcDetails.innerText = "I'm not currently playing anything";
       rpcState.innerText = "";
-      document.getElementById("rpcIcon").src = `gameDefault.png`;
+      document.getElementById("rpcIcon").src = `./template/gameDefault.png`;
       document.getElementById(
         "rpcSmallIcon"
       ).src = `https://neksio.wtf/transparent.png`;
-      //document.getElementById("rpcPanel").style.display = "none";
+      document.getElementById("rpcPanel").style.display = "none";
     }
   });
 
