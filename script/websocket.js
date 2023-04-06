@@ -47,7 +47,7 @@ fetch(`https://api.lanyard.rest/v1/users/${discordID}`)
     } else {
       trackName.innerText = "None";
       trackArtist.innerText = "I'm not currently listening anything";
-      document.getElementById("trackImg").src = "musicDefault.png";
+      document.getElementById("trackImg").src = "https://dgs1337.github.io/neksio/template/musicDefault.png;
     }
 
     if (e.data["activities"].length > 0) {
