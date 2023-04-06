@@ -12,9 +12,6 @@
 ```
 let discordID = "153490292081819648"
 ```
-```
-https://cdn.discordapp.com/app-assets/153490292081819648/
-```
 
 
 ## Author 🏷️ 
