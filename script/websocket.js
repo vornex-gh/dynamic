@@ -10,7 +10,7 @@ let rpcName = document.getElementById("rpcName");
 let rpcDetails = document.getElementById("rpcDetails");
 
 let webSocket = new WebSocket("wss://api.lanyard.rest/socket");
-let discordID = "704002391464214548";
+let discordID = "1149438819834269856";
 
 fetch(`https://api.lanyard.rest/v1/users/${discordID}`)
   .then((response) => response.json())
